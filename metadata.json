@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix ZR Digital Bank",
+  "description": "A secure, modern full-stack digital banking platform featuring real-time financial tracking, instant transfers, bills payment, and admin management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

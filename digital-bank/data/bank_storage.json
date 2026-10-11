@@ -1,0 +1,2232 @@
+{
+  "version": 1,
+  "users": [
+    {
+      "id": "usr-admin-01",
+      "fullName": "System Administrator (HQ)",
+      "email": "admin@zrbank.com",
+      "phone": "+880 1711-000001",
+      "dateOfBirth": "1988-03-15",
+      "address": "ZR Tower, Level 18, Gulshan Avenue, Dhaka-1212",
+      "role": "admin",
+      "passwordHash": "4af82cce5d8d73e1a74c1c09ae60d89f3ff26442991402fc85c834eaf808c4b75afa97885a6126a87b648704372f5d1d59587da316bef0d3199936b299e2ef0f",
+      "passwordSalt": "a30e912c8749c4a69f9482e6bda2491f",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00",
+      "updatedAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "usr-cust-01",
+      "fullName": "Zunaed Ahmed",
+      "email": "zunaed@example.com",
+      "phone": "+880 1712-345678",
+      "dateOfBirth": "1995-06-20",
+      "address": "House 42, Road 11, Banani, Dhaka-1213",
+      "role": "customer",
+      "passwordHash": "d99d849529de804c4f9d2ef1fb1818165c6a1e0f3b175801dc5fa3ac0011f42fd31495727cbf585aba038d1bc6ec9f9b51d4014edb52311949dc255f6546314b",
+      "passwordSalt": "4190ffcc29d00f032dec53807601deff",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00",
+      "updatedAt": "2026-10-09T06:56:08.134059+00:00",
+      "lastLoginAt": "2026-10-09T19:39:11.389Z"
+    },
+    {
+      "id": "usr-cust-02",
+      "fullName": "Md Rahim Uddin",
+      "email": "rahim@example.com",
+      "phone": "+880 1819-234567",
+      "dateOfBirth": "1992-11-14",
+      "address": "Flat 4B, Concord Tower, Dhanmondi 27, Dhaka-1209",
+      "role": "customer",
+      "passwordHash": "b2174e7c72e6a8f18deb59bc0067e4a612d0e51e9805eddd85d19148435cb339c6a4d421ae667365b2f471298f907105440720a12ed980aef4c08ae50bfa36a4",
+      "passwordSalt": "68dcdb674eff7b3c30e9d9c7ac404d25",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00",
+      "updatedAt": "2026-10-09T06:56:08.134059+00:00",
+      "lastLoginAt": "2026-10-09T19:39:11.233Z"
+    },
+    {
+      "id": "usr-cust-03",
+      "fullName": "Nusrat Jahan",
+      "email": "nusrat@example.com",
+      "phone": "+880 1914-567890",
+      "dateOfBirth": "1998-04-05",
+      "address": "Plot 15, Sector 7, Uttara, Dhaka-1230",
+      "role": "customer",
+      "passwordHash": "648eede9406b89e591b61432fc100f9697b3a09b58588bb76ed6058696c205e5fff21a1b6e5904ea4f2ea48237d14e754deacf177d91143ed553657af16657cb",
+      "passwordSalt": "420defc1b93b388295be25cc62b47e85",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00",
+      "updatedAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "usr-b60b0a8e",
+      "fullName": "Test Verification Account",
+      "email": "test-persist-verify@zrbank.test",
+      "phone": "+880 1700-999888",
+      "dateOfBirth": "1994-01-01",
+      "address": "Test Suite 101, Test Road, Dhaka",
+      "role": "customer",
+      "passwordHash": "74a4f207a3ae4a7ceabaff3450757aac6c6850b1db7f19ba24bc8f92f690e77f16cae98a18b91b5bec2434aaf3be653dfaf728b88b6f4028d48b092ce2d9679a",
+      "passwordSalt": "971bb3e57808c34bbdb944c182a6f211",
+      "createdAt": "2026-10-09T07:00:02.453+00:00",
+      "updatedAt": "2026-10-09T07:00:02.453+00:00"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc-admin-01",
+      "userId": "usr-admin-01",
+      "accountNumber": "ZR-1000-0001",
+      "accountType": "checking",
+      "currency": "BDT",
+      "balance": 500000,
+      "availableBalance": 500000,
+      "status": "active",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "acc-cust-03",
+      "userId": "usr-cust-03",
+      "accountNumber": "ZR-5512-9904",
+      "accountType": "savings",
+      "currency": "BDT",
+      "balance": 92000,
+      "availableBalance": 92000,
+      "status": "active",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "acc-cust-01",
+      "userId": "usr-cust-01",
+      "accountNumber": "ZR-8849-2041",
+      "accountType": "savings",
+      "currency": "BDT",
+      "balance": 124900,
+      "availableBalance": 124900,
+      "status": "active",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "acc-cust-02",
+      "userId": "usr-cust-02",
+      "accountNumber": "ZR-3391-7720",
+      "accountType": "savings",
+      "currency": "BDT",
+      "balance": 48850,
+      "availableBalance": 48850,
+      "status": "active",
+      "createdAt": "2026-10-09T06:56:08.134059+00:00"
+    },
+    {
+      "id": "acc-123474a3",
+      "userId": "usr-b60b0a8e",
+      "accountNumber": "ZR-8119-1395",
+      "accountType": "savings",
+      "currency": "BDT",
+      "balance": 9850,
+      "availableBalance": 9850,
+      "status": "active",
+      "createdAt": "2026-10-09T07:00:02.453+00:00"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn-01",
+      "transactionReference": "TXN-20261001-1001",
+      "senderName": "ZR Treasury Payroll",
+      "recipientAccountId": "acc-cust-01",
+      "recipientAccountNumber": "ZR-8849-2041",
+      "recipientName": "Zunaed Ahmed",
+      "recipientUserId": "usr-cust-01",
+      "amount": 75000,
+      "currency": "BDT",
+      "type": "deposit",
+      "category": "salary",
+      "description": "Monthly Salary Deposit - October 2026",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-01T09:00:00+00:00"
+    },
+    {
+      "id": "txn-02",
+      "transactionReference": "TXN-20261002-2004",
+      "senderAccountId": "acc-cust-01",
+      "senderAccountNumber": "ZR-8849-2041",
+      "senderName": "Zunaed Ahmed",
+      "senderUserId": "usr-cust-01",
+      "recipientAccountId": "acc-cust-02",
+      "recipientAccountNumber": "ZR-3391-7720",
+      "recipientName": "Md Rahim Uddin",
+      "recipientUserId": "usr-cust-02",
+      "amount": 15000,
+      "currency": "BDT",
+      "type": "transfer_out",
+      "category": "transfer",
+      "description": "Office project equipment reimbursement",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-02T14:30:00+00:00"
+    },
+    {
+      "id": "txn-03",
+      "transactionReference": "TXN-20261003-3008",
+      "senderAccountId": "acc-cust-01",
+      "senderAccountNumber": "ZR-8849-2041",
+      "senderName": "Zunaed Ahmed",
+      "senderUserId": "usr-cust-01",
+      "recipientAccountNumber": "DPDC-10928374",
+      "recipientName": "DPDC Electricity",
+      "amount": 3450,
+      "currency": "BDT",
+      "type": "bill_payment",
+      "category": "electricity",
+      "description": "DPDC Electricity Bill Payment",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-03T11:15:00+00:00"
+    },
+    {
+      "id": "txn-18ccfef4",
+      "transactionReference": "TXN-20261009-9454",
+      "senderAccountId": "acc-cust-01",
+      "senderAccountNumber": "ZR-8849-2041",
+      "senderName": "Zunaed Ahmed",
+      "senderUserId": "usr-cust-01",
+      "recipientAccountId": "acc-cust-02",
+      "recipientAccountNumber": "ZR-3391-7720",
+      "recipientName": "Md Rahim Uddin",
+      "recipientUserId": "usr-cust-02",
+      "amount": 500,
+      "currency": "BDT",
+      "type": "transfer_out",
+      "category": "transfer",
+      "description": "Cloud transfer verification",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-09T06:56:59.501+00:00"
+    },
+    {
+      "id": "txn-d678ec92",
+      "transactionReference": "TXN-1791529202453-0001",
+      "recipientAccountId": "acc-123474a3",
+      "recipientAccountNumber": "ZR-8119-1395",
+      "recipientName": "Test Verification Account",
+      "recipientUserId": "usr-b60b0a8e",
+      "amount": 10000,
+      "currency": "BDT",
+      "type": "deposit",
+      "category": "other",
+      "description": "Account Opening Welcome Credit - ZR Digital Bank",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-09T07:00:02.453+00:00"
+    },
+    {
+      "id": "txn-1dc934a7",
+      "transactionReference": "TXN-20261009-3144",
+      "senderAccountId": "acc-123474a3",
+      "senderAccountNumber": "ZR-8119-1395",
+      "senderName": "Test Verification Account",
+      "senderUserId": "usr-b60b0a8e",
+      "recipientAccountId": "acc-cust-02",
+      "recipientAccountNumber": "ZR-3391-7720",
+      "recipientName": "Md Rahim Uddin",
+      "recipientUserId": "usr-cust-02",
+      "amount": 150,
+      "currency": "BDT",
+      "type": "transfer_out",
+      "category": "transfer",
+      "description": "VERIFICATION-TEST-TXN-RESTART-001",
+      "status": "completed",
+      "fee": 0,
+      "timestamp": "2026-10-09T07:00:14.082+00:00"
+    }
+  ],
+  "beneficiaries": [
+    {
+      "id": "ben-01",
+      "userId": "usr-cust-01",
+      "accountNumber": "ZR-2083-4419",
+      "accountHolderName": "Md Rahim Uddin",
+      "nickname": "Rahim (Colleague)",
+      "bankName": "ZR Digital Bank",
+      "createdAt": "2026-03-05T12:00:00.000Z"
+    },
+    {
+      "id": "ben-02",
+      "userId": "usr-cust-01",
+      "accountNumber": "ZR-3391-7725",
+      "accountHolderName": "Nusrat Jahan",
+      "nickname": "Nusrat (Design Partner)",
+      "bankName": "ZR Digital Bank",
+      "createdAt": "2026-03-20T15:30:00.000Z"
+    },
+    {
+      "id": "ben-03",
+      "userId": "usr-cust-02",
+      "accountNumber": "ZR-1049-8821",
+      "accountHolderName": "Zunaed Ahmed",
+      "nickname": "Zunaed A.",
+      "bankName": "ZR Digital Bank",
+      "createdAt": "2026-03-10T11:00:00.000Z"
+    }
+  ],
+  "cards": [
+    {
+      "id": "crd-cust-01",
+      "userId": "usr-cust-01",
+      "accountId": "acc-cust-01",
+      "cardNumber": "4532 8812 9043 8841",
+      "cardHolderName": "ZUNAED AHMED",
+      "expiryDate": "09/29",
+      "cvvMasked": "***",
+      "type": "debit",
+      "cardNetwork": "visa",
+      "status": "active",
+      "dailyLimit": 50000,
+      "contactlessEnabled": true,
+      "createdAt": "2026-02-10T09:10:00.000Z"
+    },
+    {
+      "id": "crd-cust-02",
+      "userId": "usr-cust-02",
+      "accountId": "acc-cust-02",
+      "cardNumber": "5241 1928 3746 4419",
+      "cardHolderName": "MD RAHIM UDDIN",
+      "expiryDate": "11/28",
+      "cvvMasked": "***",
+      "type": "debit",
+      "cardNetwork": "mastercard",
+      "status": "active",
+      "dailyLimit": 40000,
+      "contactlessEnabled": true,
+      "createdAt": "2026-03-01T10:10:00.000Z"
+    },
+    {
+      "id": "crd-cust-03",
+      "userId": "usr-cust-03",
+      "accountId": "acc-cust-03",
+      "cardNumber": "4532 6631 8209 7725",
+      "cardHolderName": "NUSRAT JAHAN",
+      "expiryDate": "04/30",
+      "cvvMasked": "***",
+      "type": "debit",
+      "cardNetwork": "visa",
+      "status": "active",
+      "dailyLimit": 100000,
+      "contactlessEnabled": true,
+      "createdAt": "2026-03-15T11:10:00.000Z"
+    },
+    {
+      "id": "crd-35ecae01",
+      "userId": "usr-b60b0a8e",
+      "accountId": "acc-123474a3",
+      "cardNumber": "4532 9674 7428 1395",
+      "cardHolderName": "TEST VERIFICATION ACCOUNT",
+      "expiryDate": "10/30",
+      "cvvMasked": "***",
+      "type": "debit",
+      "cardNetwork": "visa",
+      "status": "active",
+      "dailyLimit": 50000,
+      "contactlessEnabled": true,
+      "createdAt": "2026-10-09T07:00:02.453Z"
+    }
+  ],
+  "billProviders": [
+    {
+      "id": "prov-elec-1",
+      "name": "DESCO (Dhaka Electric Supply)",
+      "code": "DESCO",
+      "category": "electricity",
+      "accountNumberLabel": "Account No / Customer ID (8-10 digits)",
+      "iconName": "Zap"
+    },
+    {
+      "id": "prov-elec-2",
+      "name": "DPDC (Dhaka Power Distribution)",
+      "code": "DPDC",
+      "category": "electricity",
+      "accountNumberLabel": "Consumer No (8 digits)",
+      "iconName": "Zap"
+    },
+    {
+      "id": "prov-gas-1",
+      "name": "Titas Gas Transmission",
+      "code": "TITAS",
+      "category": "gas",
+      "accountNumberLabel": "Customer ID (Non-metered / Metered)",
+      "iconName": "Flame"
+    },
+    {
+      "id": "prov-water-1",
+      "name": "Dhaka WASA",
+      "code": "DWASA",
+      "category": "water",
+      "accountNumberLabel": "Billing Account Number (12 digits)",
+      "iconName": "Droplet"
+    },
+    {
+      "id": "prov-net-1",
+      "name": "Link3 Technologies Ltd",
+      "code": "LINK3",
+      "category": "internet",
+      "accountNumberLabel": "Subscriber ID / User ID",
+      "iconName": "Wifi"
+    },
+    {
+      "id": "prov-net-2",
+      "name": "Carnival Internet Broadband",
+      "code": "CARNIVAL",
+      "category": "internet",
+      "accountNumberLabel": "Carnival Customer ID",
+      "iconName": "Wifi"
+    },
+    {
+      "id": "prov-mob-1",
+      "name": "Grameenphone Prepaid & Postpaid",
+      "code": "GP",
+      "category": "mobile_recharge",
+      "accountNumberLabel": "Mobile Number (e.g. 017xxxxxxxx)",
+      "iconName": "Smartphone"
+    },
+    {
+      "id": "prov-mob-2",
+      "name": "Robi Axiata Ltd",
+      "code": "ROBI",
+      "category": "mobile_recharge",
+      "accountNumberLabel": "Mobile Number (e.g. 018xxxxxxxx)",
+      "iconName": "Smartphone"
+    },
+    {
+      "id": "prov-mob-3",
+      "name": "Banglalink Digital",
+      "code": "BL",
+      "category": "mobile_recharge",
+      "accountNumberLabel": "Mobile Number (e.g. 019xxxxxxxx)",
+      "iconName": "Smartphone"
+    }
+  ],
+  "billPayments": [
+    {
+      "id": "bill-rec-01",
+      "userId": "usr-cust-01",
+      "accountId": "acc-cust-01",
+      "providerId": "prov-elec-1",
+      "providerName": "DESCO (Dhaka Electric Supply)",
+      "category": "electricity",
+      "billCustomerNumber": "984421",
+      "amount": 3450,
+      "currency": "BDT",
+      "transactionId": "txn-103",
+      "status": "successful",
+      "timestamp": "2026-09-15T11:20:00.000Z"
+    },
+    {
+      "id": "bill-rec-02",
+      "userId": "usr-cust-01",
+      "accountId": "acc-cust-01",
+      "providerId": "prov-net-1",
+      "providerName": "Link3 Technologies Ltd",
+      "category": "internet",
+      "billCustomerNumber": "LINK3-SUB-882",
+      "amount": 1725,
+      "currency": "BDT",
+      "transactionId": "txn-104",
+      "status": "successful",
+      "timestamp": "2026-09-20T16:40:00.000Z"
+    },
+    {
+      "id": "bill-rec-03",
+      "userId": "usr-cust-01",
+      "accountId": "acc-cust-01",
+      "providerId": "prov-mob-1",
+      "providerName": "Grameenphone Prepaid & Postpaid",
+      "category": "mobile_recharge",
+      "billCustomerNumber": "01712345678",
+      "amount": 500,
+      "currency": "BDT",
+      "transactionId": "txn-108",
+      "status": "successful",
+      "timestamp": "2026-10-07T14:10:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "userId": "usr-cust-01",
+      "title": "Money Received",
+      "message": "You received ৳5,000.00 from Md Rahim Uddin.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-06T18:45:00.000Z"
+    },
+    {
+      "id": "notif-02",
+      "userId": "usr-cust-01",
+      "title": "Transfer Successful",
+      "message": "Successfully sent ৳15,000.00 to Nusrat Jahan (ZR-3391-7725).",
+      "type": "transfer",
+      "isRead": true,
+      "timestamp": "2026-10-04T12:05:00.000Z"
+    },
+    {
+      "id": "notif-03",
+      "userId": "usr-cust-01",
+      "title": "Salary Credited",
+      "message": "৳90,000.00 has been credited to your Savings Account by Apex Tech Corp.",
+      "type": "account",
+      "isRead": true,
+      "timestamp": "2026-10-01T09:15:00.000Z"
+    },
+    {
+      "id": "notif-04",
+      "userId": "usr-cust-01",
+      "title": "Bill Payment Successful",
+      "message": "DESCO Electricity bill of ৳3,450.00 has been processed successfully.",
+      "type": "bill",
+      "isRead": true,
+      "timestamp": "2026-09-15T11:20:00.000Z"
+    },
+    {
+      "id": "notif-05",
+      "userId": "usr-cust-01",
+      "title": "Security Notice",
+      "message": "New sign-in recorded from Chrome on MacOS (Dhaka, Bangladesh).",
+      "type": "security",
+      "isRead": true,
+      "timestamp": "2026-10-08T10:30:00.000Z"
+    },
+    {
+      "id": "notif-732bffc2",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳500.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T06:56:59.501Z"
+    },
+    {
+      "id": "notif-a53b0c1b",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳500.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T06:56:59.501Z"
+    },
+    {
+      "id": "notif-709e4de4",
+      "userId": "usr-b60b0a8e",
+      "title": "Welcome to ZR Digital Bank!",
+      "message": "Your account ZR-8119-1395 has been opened with a complimentary initial credit of ৳10,000.00.",
+      "type": "account",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:00:02.453Z"
+    },
+    {
+      "id": "notif-b8aa7fca",
+      "userId": "usr-b60b0a8e",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳150.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:00:14.082Z"
+    },
+    {
+      "id": "notif-7211a31e",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳150.00 from Test Verification Account.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:00:14.082Z"
+    },
+    {
+      "id": "notif-2d36290c",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳250.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:06:57.865Z"
+    },
+    {
+      "id": "notif-2d2bc15a",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳250.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:06:57.865Z"
+    },
+    {
+      "id": "notif-d86775ef",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳50.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:06:58.250Z"
+    },
+    {
+      "id": "notif-8acfe082",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳50.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:06:58.250Z"
+    },
+    {
+      "id": "notif-8b248b4e",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳250.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:09:32.630Z"
+    },
+    {
+      "id": "notif-723a9501",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳250.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:09:32.630Z"
+    },
+    {
+      "id": "notif-db33acc3",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳50.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:09:33.026Z"
+    },
+    {
+      "id": "notif-3a5fb432",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳50.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:09:33.026Z"
+    },
+    {
+      "id": "notif-e87fa65b",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳250.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:13:30.742Z"
+    },
+    {
+      "id": "notif-255857cb",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳250.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:13:30.742Z"
+    },
+    {
+      "id": "notif-68632ba5",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳50.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:13:31.576Z"
+    },
+    {
+      "id": "notif-a0ff7906",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳50.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:13:31.576Z"
+    },
+    {
+      "id": "notif-c11c486c",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳250.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:47:59.195Z"
+    },
+    {
+      "id": "notif-d550c344",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳250.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:47:59.195Z"
+    },
+    {
+      "id": "notif-31ae1ea5",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳50.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:48:00.024Z"
+    },
+    {
+      "id": "notif-f91bf2d3",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳50.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:48:00.024Z"
+    },
+    {
+      "id": "notif-7b659dc3",
+      "userId": "usr-cust-01",
+      "title": "Transfer Sent",
+      "message": "You successfully sent ৳10.00 to Md Rahim Uddin (ZR-3391-7720).",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:48:22.810Z"
+    },
+    {
+      "id": "notif-bcf82126",
+      "userId": "usr-cust-02",
+      "title": "Money Received",
+      "message": "You received ৳10.00 from Zunaed Ahmed.",
+      "type": "transfer",
+      "isRead": false,
+      "timestamp": "2026-10-09T07:48:22.810Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log-87ad5c7e",
+      "timestamp": "2026-10-09T19:39:11.391Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-db87b614",
+      "timestamp": "2026-10-09T19:39:11.337Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c682ddef",
+      "timestamp": "2026-10-09T19:39:11.235Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-21a24a4d",
+      "timestamp": "2026-10-09T19:39:11.170Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-4e162558",
+      "timestamp": "2026-10-09T19:36:47.056Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-77269fb4",
+      "timestamp": "2026-10-09T19:36:47.001Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-503bffc9",
+      "timestamp": "2026-10-09T19:36:46.878Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-09b99d3b",
+      "timestamp": "2026-10-09T19:36:46.798Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-66b9f161",
+      "timestamp": "2026-10-09T19:27:42.787Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-2b0e6216",
+      "timestamp": "2026-10-09T19:27:42.729Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-84bd888f",
+      "timestamp": "2026-10-09T19:27:42.603Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-1c3d6b3b",
+      "timestamp": "2026-10-09T19:27:42.526Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-d258f9a1",
+      "timestamp": "2026-10-09T19:21:34.258Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-e54ff0e6",
+      "timestamp": "2026-10-09T19:21:34.202Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-4af2d0e8",
+      "timestamp": "2026-10-09T19:21:34.058Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-22b4cc95",
+      "timestamp": "2026-10-09T19:21:33.984Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-8bda406a",
+      "timestamp": "2026-10-09T19:01:22.132Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-ba34ba2a",
+      "timestamp": "2026-10-09T19:01:22.079Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-da5f7c12",
+      "timestamp": "2026-10-09T19:01:21.945Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-6137bc1a",
+      "timestamp": "2026-10-09T19:01:21.857Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-ed8cd3b5",
+      "timestamp": "2026-10-09T18:54:20.120Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-0f5a5203",
+      "timestamp": "2026-10-09T18:54:20.051Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-f1d5da58",
+      "timestamp": "2026-10-09T18:54:19.936Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-5ba4f511",
+      "timestamp": "2026-10-09T18:54:19.862Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-b08d60bc",
+      "timestamp": "2026-10-09T18:51:20.811Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-7534f95a",
+      "timestamp": "2026-10-09T18:51:20.753Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-6f833612",
+      "timestamp": "2026-10-09T18:51:20.656Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c43fe75a",
+      "timestamp": "2026-10-09T18:51:20.566Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-5a0948aa",
+      "timestamp": "2026-10-09T18:41:26.498Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-d7b0a71b",
+      "timestamp": "2026-10-09T18:41:26.438Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-431ffdb0",
+      "timestamp": "2026-10-09T18:41:26.291Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-dd8e2bbe",
+      "timestamp": "2026-10-09T18:41:26.202Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-f242bbf0",
+      "timestamp": "2026-10-09T18:41:04.282Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-13e9af62",
+      "timestamp": "2026-10-09T18:41:04.219Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-a50d9584",
+      "timestamp": "2026-10-09T18:41:04.110Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-4c108af9",
+      "timestamp": "2026-10-09T18:41:04.040Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-37ec44cc",
+      "timestamp": "2026-10-09T18:37:06.537Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGOUT",
+      "resource": "AUTH",
+      "details": "User logged out",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-dc707878",
+      "timestamp": "2026-10-09T18:36:50.596Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-282b738a",
+      "timestamp": "2026-10-09T18:36:37.430Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-7424a83f",
+      "timestamp": "2026-10-09T18:36:37.355Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-db39931a",
+      "timestamp": "2026-10-09T18:36:37.173Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-6254d94a",
+      "timestamp": "2026-10-09T18:36:37.069Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-42ea963a",
+      "timestamp": "2026-10-09T18:09:02.959Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-5bda1b72",
+      "timestamp": "2026-10-09T18:09:02.887Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-3b9dc382",
+      "timestamp": "2026-10-09T18:09:02.764Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-ddd984bf",
+      "timestamp": "2026-10-09T18:09:02.663Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-ee60f655",
+      "timestamp": "2026-10-09T18:08:38.344Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-e9614790",
+      "timestamp": "2026-10-09T18:08:38.268Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-31a3279f",
+      "timestamp": "2026-10-09T18:08:38.058Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-a4c6175e",
+      "timestamp": "2026-10-09T18:08:37.954Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-5350933b",
+      "timestamp": "2026-10-09T07:48:22.812Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-5904",
+      "details": "Transferred ৳10.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-ae131c65",
+      "timestamp": "2026-10-09T07:48:22.574Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-a4027a2b",
+      "timestamp": "2026-10-09T07:48:00.025Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-9368",
+      "details": "Transferred ৳50.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-99fa4bd9",
+      "timestamp": "2026-10-09T07:47:59.204Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-7566",
+      "details": "Transferred ৳250.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-e082b934",
+      "timestamp": "2026-10-09T07:47:59.001Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER_FAILED",
+      "resource": "ZR-8849-2041",
+      "details": "Insufficient balance attempt: attempted ৳999999999.00, available ৳124900.00",
+      "ipAddress": "127.0.0.1",
+      "result": "FAILURE"
+    },
+    {
+      "id": "log-2f07b029",
+      "timestamp": "2026-10-09T07:47:58.086Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-6c5f82ec",
+      "timestamp": "2026-10-09T07:47:57.990Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c47b9b43",
+      "timestamp": "2026-10-09T07:13:31.576Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-7048",
+      "details": "Transferred ৳50.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-566bc625",
+      "timestamp": "2026-10-09T07:13:30.748Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-6462",
+      "details": "Transferred ৳250.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-01de26ef",
+      "timestamp": "2026-10-09T07:13:30.558Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER_FAILED",
+      "resource": "ZR-8849-2041",
+      "details": "Insufficient balance attempt: attempted ৳999999999.00, available ৳124900.00",
+      "ipAddress": "127.0.0.1",
+      "result": "FAILURE"
+    },
+    {
+      "id": "log-cea26c4c",
+      "timestamp": "2026-10-09T07:13:29.924Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-9b15c4cc",
+      "timestamp": "2026-10-09T07:13:29.833Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-46870d56",
+      "timestamp": "2026-10-09T07:09:33.027Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-8510",
+      "details": "Transferred ৳50.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-964f76c1",
+      "timestamp": "2026-10-09T07:09:32.636Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-6529",
+      "details": "Transferred ৳250.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-42502fff",
+      "timestamp": "2026-10-09T07:09:32.408Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER_FAILED",
+      "resource": "ZR-8849-2041",
+      "details": "Insufficient balance attempt: attempted ৳999999999.00, available ৳124900.00",
+      "ipAddress": "127.0.0.1",
+      "result": "FAILURE"
+    },
+    {
+      "id": "log-6b192c10",
+      "timestamp": "2026-10-09T07:09:31.761Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-d770eb61",
+      "timestamp": "2026-10-09T07:09:31.675Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c83151d9",
+      "timestamp": "2026-10-09T07:06:58.251Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-7696",
+      "details": "Transferred ৳50.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-4fbff4f4",
+      "timestamp": "2026-10-09T07:06:57.871Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-9144",
+      "details": "Transferred ৳250.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-ea041b6e",
+      "timestamp": "2026-10-09T07:06:57.372Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER_FAILED",
+      "resource": "ZR-8849-2041",
+      "details": "Insufficient balance attempt: attempted ৳999999999.00, available ৳124900.00",
+      "ipAddress": "127.0.0.1",
+      "result": "FAILURE"
+    },
+    {
+      "id": "log-64a2131f",
+      "timestamp": "2026-10-09T07:06:56.787Z",
+      "userId": "usr-cust-02",
+      "userEmail": "rahim@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c9f82f48",
+      "timestamp": "2026-10-09T07:06:56.691Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-e634b40c",
+      "timestamp": "2026-10-09T07:00:41.945Z",
+      "userId": "usr-b60b0a8e",
+      "userEmail": "test-persist-verify@zrbank.test",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-37dcd5e5",
+      "timestamp": "2026-10-09T07:00:14.089Z",
+      "userId": "usr-b60b0a8e",
+      "userEmail": "test-persist-verify@zrbank.test",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-3144",
+      "details": "Transferred ৳150.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-ace1a1e5",
+      "timestamp": "2026-10-09T07:00:02.453Z",
+      "userId": "usr-b60b0a8e",
+      "userEmail": "test-persist-verify@zrbank.test",
+      "userRole": "customer",
+      "action": "CUSTOMER_REGISTRATION",
+      "resource": "ACCOUNT:ZR-8119-1395",
+      "details": "New account created for Test Verification Account with initial credit ৳10,000.00",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-c0b6a3f9",
+      "timestamp": "2026-10-09T06:59:49.928Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "UNAUTHORIZED_ADMIN_ATTEMPT",
+      "resource": "/api/admin/metrics",
+      "details": "User attempted to access restricted admin route /api/admin/metrics",
+      "result": "FAILURE",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-822610f4",
+      "timestamp": "2026-10-09T06:59:49.913Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-f243ea52",
+      "timestamp": "2026-10-09T06:59:44.783Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-dde76451",
+      "timestamp": "2026-10-09T06:56:59.515Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20261009-9454",
+      "details": "Transferred ৳500.00 to ZR-3391-7720 (Md Rahim Uddin).",
+      "ipAddress": "127.0.0.1",
+      "result": "SUCCESS"
+    },
+    {
+      "id": "log-cd5fedfd",
+      "timestamp": "2026-10-09T06:56:55.360Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-bf64889e",
+      "timestamp": "2026-10-09T05:10:07.112Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c4de0904",
+      "timestamp": "2026-10-09T05:10:00.903Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-4d372cfa",
+      "timestamp": "2026-10-09T05:07:25.315Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-c679016c",
+      "timestamp": "2026-10-09T05:06:36.904Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-f0267b25",
+      "timestamp": "2026-10-09T05:06:31.824Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-3bfb8875",
+      "timestamp": "2026-10-09T05:06:25.138Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-dc77510f",
+      "timestamp": "2026-10-09T05:05:48.553Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-3a1656c0",
+      "timestamp": "2026-10-09T05:04:24.691Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-dcee156d",
+      "timestamp": "2026-10-09T05:04:00.585Z",
+      "userEmail": "admin@zrdigital.bank",
+      "action": "LOGIN_FAILED",
+      "resource": "AUTH",
+      "details": "Failed login attempt for non-existent email: admin@zrdigital.bank",
+      "result": "FAILURE",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-5c51e41b",
+      "timestamp": "2026-10-09T04:59:11.555Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGOUT",
+      "resource": "AUTH",
+      "details": "User logged out",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-9e585090",
+      "timestamp": "2026-10-09T04:59:02.651Z",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as admin",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-e904cf49",
+      "timestamp": "2026-10-09T04:58:55.169Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGOUT",
+      "resource": "AUTH",
+      "details": "User logged out",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-d1e274e2",
+      "timestamp": "2026-10-09T04:55:16.055Z",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "USER_LOGIN",
+      "resource": "AUTH",
+      "details": "Successful sign-in as customer",
+      "result": "SUCCESS",
+      "ipAddress": "127.0.0.1"
+    },
+    {
+      "id": "log-01",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "SYSTEM_INITIALIZATION",
+      "resource": "CORE_DATABASE",
+      "details": "ZR Digital Bank core ledger initialized with default compliance standards.",
+      "ipAddress": "103.114.96.22",
+      "result": "SUCCESS",
+      "timestamp": "2026-01-01T08:00:00.000Z"
+    },
+    {
+      "id": "log-02",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "CUSTOMER_REGISTRATION",
+      "resource": "ACCOUNT_OPENING",
+      "details": "Customer Zunaed Ahmed opened Savings Account ZR-1049-8821.",
+      "ipAddress": "103.125.101.44",
+      "result": "SUCCESS",
+      "timestamp": "2026-02-10T09:00:00.000Z"
+    },
+    {
+      "id": "log-03",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "FUND_TRANSFER",
+      "resource": "TXN-20260910-2041",
+      "details": "Transferred ৳10,000.00 to account ZR-2083-4419 (Md Rahim Uddin).",
+      "ipAddress": "103.125.101.44",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-10T14:15:00.000Z"
+    },
+    {
+      "id": "log-04",
+      "userId": "usr-cust-01",
+      "userEmail": "zunaed@example.com",
+      "userRole": "customer",
+      "action": "BILL_PAYMENT",
+      "resource": "BILL-DESCO",
+      "details": "Paid ৳3,450.00 to DESCO for Consumer ID 984421.",
+      "ipAddress": "103.125.101.44",
+      "result": "SUCCESS",
+      "timestamp": "2026-09-15T11:20:00.000Z"
+    },
+    {
+      "id": "log-05",
+      "userId": "usr-admin-01",
+      "userEmail": "admin@zrbank.com",
+      "userRole": "admin",
+      "action": "ADMIN_MONITORING_ACCESS",
+      "resource": "SYSTEM_AUDIT",
+      "details": "Admin verified liquidity metrics and reserve compliance status.",
+      "ipAddress": "103.114.96.22",
+      "result": "SUCCESS",
+      "timestamp": "2026-10-08T12:00:00.000Z"
+    }
+  ],
+  "sessions": {
+    "b62f782d0123b3b511aecf6fb3770665374faae7fa370de6248cbfefda5bad43": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:04:24.690Z",
+      "expiresAt": "2026-10-16T05:04:24.690Z"
+    },
+    "80473196531c9a0f34672eea9b9d9b13a2e0d6f2f40b5a2f3f72c6598b15a0a2": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:05:48.551Z",
+      "expiresAt": "2026-10-16T05:05:48.551Z"
+    },
+    "0f8f4d06e0e6d4164e7afd460910cbf2461797293ea866a538e44d57d51111d4": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:06:25.137Z",
+      "expiresAt": "2026-10-16T05:06:25.137Z"
+    },
+    "c32b9bc313eb9e8879f973aba6fad8efbe60d76e72d062c5cd94b17000ca740e": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:06:31.823Z",
+      "expiresAt": "2026-10-16T05:06:31.823Z"
+    },
+    "4da81bbc98ae575df37bb68d2dffa0fe190eaf7709f10eee0cfe7cebfaa6a55d": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:06:36.903Z",
+      "expiresAt": "2026-10-16T05:06:36.903Z"
+    },
+    "a4c2faeeae844f632637e14a8db026f14fac453c73d04276194a935cc21ab3c3": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:07:25.314Z",
+      "expiresAt": "2026-10-16T05:07:25.314Z"
+    },
+    "8537d5d531522da35baa99630c8e1f2c304d574923eea3f82c5614260218e1d9": {
+      "userId": "usr-admin-01",
+      "createdAt": "2026-10-09T05:10:00.902Z",
+      "expiresAt": "2026-10-16T05:10:00.902Z"
+    },
+    "2cfffb69be7157cde5ee5ceb6fb494bfdca333c512c1334f1d1ef5b5a39c5048": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T05:10:07.111Z",
+      "expiresAt": "2026-10-16T05:10:07.111Z"
+    },
+    "489a350b09c1ca71dc36765728e37105befe959e92429e5dd909ae424278bfc8": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T06:56:55.357Z",
+      "expiresAt": "2026-10-16T06:56:55.357Z"
+    },
+    "fdf93df1e6066a2c42b5f15ae317f692e165c9e196b8695ffaedf24dea37111e": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T06:59:44.781Z",
+      "expiresAt": "2026-10-16T06:59:44.781Z"
+    },
+    "b004467cf9e13788931c0f213cdb8830df7c39b14b2cc0eb3896201abff90c52": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T06:59:49.912Z",
+      "expiresAt": "2026-10-16T06:59:49.912Z"
+    },
+    "c0c8ec426fb017a26e2cfad0de9fafcf474930d8ef09f18c06156ed193f42148": {
+      "userId": "usr-b60b0a8e",
+      "createdAt": "2026-10-09T07:00:02.455Z",
+      "expiresAt": "2026-10-16T07:00:02.455Z"
+    },
+    "97ca9a47a7b9d62337612870804e44c405af3dcabb32f6e127b7a5f5393ed114": {
+      "userId": "usr-b60b0a8e",
+      "createdAt": "2026-10-09T07:00:41.943Z",
+      "expiresAt": "2026-10-16T07:00:41.943Z"
+    },
+    "d006beff432ca99d4dfe42d9e882ded0cc00818d94b7b98a684db8af34ea432f": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T07:06:56.690Z",
+      "expiresAt": "2026-10-16T07:06:56.690Z"
+    },
+    "e7cee179d00b99ce7798fb37f13d3353cf6c3e5c1cbb54f93a258f26b551e049": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T07:06:56.787Z",
+      "expiresAt": "2026-10-16T07:06:56.787Z"
+    },
+    "7f8eaa557640a6fb76e3de25f60d793bd02201379be7a91a5b39dae05307b053": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T07:09:31.672Z",
+      "expiresAt": "2026-10-16T07:09:31.672Z"
+    },
+    "b0974452134100837fdb3a2d888c72aba3bcd4c2d238a60a69efdb330d7f9c0c": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T07:09:31.760Z",
+      "expiresAt": "2026-10-16T07:09:31.760Z"
+    },
+    "ca8b8ad11aa6cf0f390024e4e46c0d08a6aa453d3cd72070be1b026401361fad": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T07:13:29.831Z",
+      "expiresAt": "2026-10-16T07:13:29.831Z"
+    },
+    "55b8249c7462c3ad24e4f01cc407791037a781af236724e3f2318a800ff0038b": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T07:13:29.923Z",
+      "expiresAt": "2026-10-16T07:13:29.923Z"
+    },
+    "ae1d4267c8328ea0a0619a75804aa0f8a776b1536e333f2e7c93394e7bed6b61": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T07:47:57.986Z",
+      "expiresAt": "2026-10-16T07:47:57.986Z"
+    },
+    "7071eb15b9ece4078692f00fae37f3cb0e7c4a38c77d88384333ddd13c610d9e": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T07:47:58.085Z",
+      "expiresAt": "2026-10-16T07:47:58.085Z"
+    },
+    "29e0a6736f61e8791691df2ed5c8dbb1cdb747f7c48a79cf01eb1a465865644a": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T07:48:22.570Z",
+      "expiresAt": "2026-10-16T07:48:22.570Z"
+    },
+    "42bcbadcbae38fe094da2a5effe18556d27ef2ce5e9a8649dfee694ba5f8e2a0": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:08:37.952Z",
+      "expiresAt": "2026-10-16T18:08:37.952Z"
+    },
+    "422d91feb8e82c29e87600c2f31716801707954a605831b7f44bded1d339a87d": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:08:38.056Z",
+      "expiresAt": "2026-10-16T18:08:38.056Z"
+    },
+    "be3addbae4d5321d93a45e963aafa1517cd0757d421f94d38ca7ee0a1bb24f87": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:08:38.267Z",
+      "expiresAt": "2026-10-16T18:08:38.267Z"
+    },
+    "f16318a87560eb3c9870abdd19675cb0e442bc57fc204de301fc89bb6fc110b2": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:08:38.342Z",
+      "expiresAt": "2026-10-16T18:08:38.342Z"
+    },
+    "79b4e7bd9be084ba0208cf70e34b38814bf2cbf3970e36778c2772243436ddef": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:09:02.661Z",
+      "expiresAt": "2026-10-16T18:09:02.661Z"
+    },
+    "52817db3025ce6d0138a6b9aeb2c6970c0a84cadc8167317b8bddfcefd6010a8": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:09:02.763Z",
+      "expiresAt": "2026-10-16T18:09:02.763Z"
+    },
+    "8c00ce23b9fe1c68b9c254a95b26e40856d6a4d70dc03abdd4614a955e7026e8": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:09:02.886Z",
+      "expiresAt": "2026-10-16T18:09:02.886Z"
+    },
+    "f7493118e5e1542013e09e9baca75d16e73c5d54a3ae8fef29fe55cd4cc30fe7": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:09:02.958Z",
+      "expiresAt": "2026-10-16T18:09:02.958Z"
+    },
+    "b51eec2da88aeef7ab5b93932ff48d9bf66d3e41ad1b43b31ac1c688bcfbf30b": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:36:37.067Z",
+      "expiresAt": "2026-10-16T18:36:37.067Z"
+    },
+    "ee0d3fb2971fbe9eabfb6de044c4da216ab098be7359771e795fe7ca750f369f": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:36:37.172Z",
+      "expiresAt": "2026-10-16T18:36:37.172Z"
+    },
+    "4b66f7d54f88cc9f91341de13983aad22c6391ce080883c594482e891dc4b9e2": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:36:37.355Z",
+      "expiresAt": "2026-10-16T18:36:37.355Z"
+    },
+    "ae8099daa383b7ced11582e423b3cc7d2b5bd0ddc81141e0979dd5bd2eeb1ca8": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:36:37.429Z",
+      "expiresAt": "2026-10-16T18:36:37.429Z"
+    },
+    "1da1df22f307ff34fe45c657d2de4a06c2923945b68af686d8298fff09c536c6": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:04.039Z",
+      "expiresAt": "2026-10-16T18:41:04.039Z"
+    },
+    "68ca14bfa7d5a5e3569be1108e579dfde28bafeac27bb1dbee5891afedd16780": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:41:04.109Z",
+      "expiresAt": "2026-10-16T18:41:04.109Z"
+    },
+    "56551539dbba4820884917607116db7169ce79377c2e96ee27fb3d58d49f505b": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:04.217Z",
+      "expiresAt": "2026-10-16T18:41:04.217Z"
+    },
+    "c27f433476b50c5abbb6f4308d827b2cf2a5ec14d6bcb9f30e44d2c0f851d3d8": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:04.281Z",
+      "expiresAt": "2026-10-16T18:41:04.281Z"
+    },
+    "36e39813a08d8109820fbd8d25e7764a03afe29e83a68af3690f8ceb677f0b21": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:26.200Z",
+      "expiresAt": "2026-10-16T18:41:26.200Z"
+    },
+    "bdaf57748a5b992acf6e03427ebe4bc75e90a8be5085e0e637fcf73afe635cb6": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:41:26.290Z",
+      "expiresAt": "2026-10-16T18:41:26.290Z"
+    },
+    "4f57ecf07eb199e147bf6eaaedecdd4b9bf9b126b9e87d422e0de2630f856fe9": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:26.437Z",
+      "expiresAt": "2026-10-16T18:41:26.437Z"
+    },
+    "6fb8da09618d66e12c6f16881597a7ff533e89119cc88093be9722cf0929dfa9": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:41:26.498Z",
+      "expiresAt": "2026-10-16T18:41:26.498Z"
+    },
+    "8652fb91d88b35bbb1dcaac42ed5089db9488717fbd372879927ccd34dbabcb8": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:51:20.564Z",
+      "expiresAt": "2026-10-16T18:51:20.564Z"
+    },
+    "381680d26f0a46d6b176142bbc9f40316a532f7d8460efe80163fab0559b453a": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:51:20.655Z",
+      "expiresAt": "2026-10-16T18:51:20.655Z"
+    },
+    "f007227901ac2d9ab2288b60ed9796758f02edfafae102b08e9f99dcf9baeb3c": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:51:20.753Z",
+      "expiresAt": "2026-10-16T18:51:20.753Z"
+    },
+    "978b03e8b9b53f0b11ee429a5d0115be4a8cd2e77a391bf84fd7fdc6c98e3131": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:51:20.810Z",
+      "expiresAt": "2026-10-16T18:51:20.810Z"
+    },
+    "13e7fd4367a0438250e0abea4165af86d49f2411d6547a51f6354ead57da4d7b": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:54:19.860Z",
+      "expiresAt": "2026-10-16T18:54:19.860Z"
+    },
+    "5376a927cef4d6f1d2ed37f37a31643965e0ef4de9b8da30468444ddd8b39635": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T18:54:19.935Z",
+      "expiresAt": "2026-10-16T18:54:19.935Z"
+    },
+    "4eb6be80e8c835aef464b1e29700d12cdce2d4c82bdee839d54a1f88a95c231a": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:54:20.050Z",
+      "expiresAt": "2026-10-16T18:54:20.050Z"
+    },
+    "eb217d73914569382c140d26f3ff04e57b092709f7a03512401d2342ce505ae5": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T18:54:20.119Z",
+      "expiresAt": "2026-10-16T18:54:20.119Z"
+    },
+    "6a8947b198ccffa41c995e3425388da7deb1017bdcd2a6c001faf270de9fad72": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:01:21.853Z",
+      "expiresAt": "2026-10-16T19:01:21.853Z"
+    },
+    "72d42e28e3b71680c9d81712deb3622bfde1d9fde145d846dc738c37ec1a2957": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T19:01:21.943Z",
+      "expiresAt": "2026-10-16T19:01:21.943Z"
+    },
+    "618453a6155cd2ad17a62bd52bed101885b489065e2c42998c78ec1558027a38": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:01:22.079Z",
+      "expiresAt": "2026-10-16T19:01:22.079Z"
+    },
+    "b58cf919c09236067906217ea46d76ba050210bb2b7d3d993b0a3b46bdc69779": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:01:22.132Z",
+      "expiresAt": "2026-10-16T19:01:22.132Z"
+    },
+    "c5045b610d4db3dd450dbd3c5a54933232cac67c633c0b4758d3a4c5e7836627": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:21:33.981Z",
+      "expiresAt": "2026-10-16T19:21:33.981Z"
+    },
+    "6f5a64ef664762a5c3878764d18efe8a5cd2bf7fe99cc2fbf42af35c1db657a9": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T19:21:34.057Z",
+      "expiresAt": "2026-10-16T19:21:34.057Z"
+    },
+    "178f3091bc9a9293040e2c170a81bf74d6c8f81bb03ae3ed1e1cbc46692b18da": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:21:34.201Z",
+      "expiresAt": "2026-10-16T19:21:34.201Z"
+    },
+    "af9f1f9e1b772d5e397cfee082c4c9208611dcae6d6fcd36aeae26cd6f2b64e4": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:21:34.258Z",
+      "expiresAt": "2026-10-16T19:21:34.258Z"
+    },
+    "7c0cf3793f5c91f1f3a6ba1024cf7638e15768e8c0161f1aeb329bac945e8497": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:27:42.524Z",
+      "expiresAt": "2026-10-16T19:27:42.524Z"
+    },
+    "0c866d0d30e261144a3901625b595d4cdd6e0c6d08af8e44fc001cd6cc373041": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T19:27:42.602Z",
+      "expiresAt": "2026-10-16T19:27:42.602Z"
+    },
+    "bbf4d201bb48e26a6f1b76bd76e09cf136d390d85dc1ff530ceb8db51dcf5c38": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:27:42.728Z",
+      "expiresAt": "2026-10-16T19:27:42.728Z"
+    },
+    "f91063326e2102698186a8787e86a8a78402ba2db55df9e51b84394d020db646": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:27:42.787Z",
+      "expiresAt": "2026-10-16T19:27:42.787Z"
+    },
+    "9a7092c1d51f240f1548463edde8a49fa39dd4699a809bff7f78d4f4e9de4a83": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:36:46.796Z",
+      "expiresAt": "2026-10-16T19:36:46.796Z"
+    },
+    "63d84edb793676234062f87bb79ba2d87ae070b71d6689072c60a7f7c7e94d2b": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T19:36:46.877Z",
+      "expiresAt": "2026-10-16T19:36:46.877Z"
+    },
+    "454ef2fa4e071be0d6c07ccacd1f20f71d4757b7ce954a7f6ad39d77d6117f8d": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:36:47.000Z",
+      "expiresAt": "2026-10-16T19:36:47.000Z"
+    },
+    "a058be6d3e4c6ea1d9c39db965f3d7bc3369abd7ad54ca0065c6a58bf745acb3": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:36:47.055Z",
+      "expiresAt": "2026-10-16T19:36:47.055Z"
+    },
+    "5a40b737af6799cbb65f5ac451244081c5e7b6575ce25f6d28074a241c90fea7": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:39:11.169Z",
+      "expiresAt": "2026-10-16T19:39:11.169Z"
+    },
+    "320f91877a0468f779bc48e3586cbd0f4a2c54008368aae1910282f0efd546db": {
+      "userId": "usr-cust-02",
+      "createdAt": "2026-10-09T19:39:11.234Z",
+      "expiresAt": "2026-10-16T19:39:11.234Z"
+    },
+    "83fea0988963090d28a3d2194898b28d9377fb8c037968e97b83ebd458ca5b13": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:39:11.336Z",
+      "expiresAt": "2026-10-16T19:39:11.336Z"
+    },
+    "86a3848a3a941f0b71563010d87d0b6f44fd1d680695f3a453a9e62d957f7b87": {
+      "userId": "usr-cust-01",
+      "createdAt": "2026-10-09T19:39:11.390Z",
+      "expiresAt": "2026-10-16T19:39:11.390Z"
+    }
+  }
+}
